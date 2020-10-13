@@ -44,3 +44,28 @@ body {
   color:black;
   border-radius:8px;
 }
+
+.oll{
+  background-color: lightyellow;
+  margin: auto;
+  border:1px solid black;
+  border-radius: 8px;
+  width: 65.8%;
+  height: 650px;
+
+}
+
+.card{
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow: auto;
+  float:left;
+  margin: 3px;
+}
+
+img{
+  height: 60px;
+  width: 100px;
+}
