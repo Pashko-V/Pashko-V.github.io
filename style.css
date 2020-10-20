@@ -50,8 +50,8 @@ body {
   margin: auto;
   border:1px solid black;
   border-radius: 8px;
-  width: 65.8%;
-  height: 650px;
+  width: 64.8%;
+  height: 450px;
 
 }
 
@@ -65,7 +65,8 @@ body {
   margin: 3px;
 }
 
-img{
-  height: 60px;
-  width: 100px;
+.foto{
+  height: 200px;
+  width: 250px;
+  float: left;
 }
