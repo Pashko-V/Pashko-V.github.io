@@ -26,15 +26,15 @@
 }
 
 body {
-	background-color:#9370DB;
+  background-color:#9370DB;
 }
 
 .golov{
-	color:#FFE4C4; 
+  color:#FFE4C4; 
 }
 
 .info{
-	color:#FFE4B5;
+  color:#FFE4B5;
 }
 
 .graph{
@@ -70,4 +70,55 @@ body {
   height: 200px;
   width: 250px;
   float: left;
+}
+
+.table{
+  width: 500px;
+  height: 550px;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell{
+  width: 100px;
+  height: 50px;
+  border:1px solid black;
+  float:left;
+  box-sizing: border-box;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+}
+
+.cell1{
+  width: 100px;
+  height: 50px;
+  border:1px solid black;
+  float:left;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+
+.row:nth-child(odd)>.cell:nth-child(odd){
+  background-color: #AFEEEE;
+}
+
+.row:nth-child(even)>.cell:nth-child(even){
+  background-color: #AFEEEE;
+}
+
+.row:nth-child(odd)>.cell:nth-child(even){
+  background-color: #FFE4C4;
+}
+
+.row:nth-child(odd)>.cell1:nth-child(even){
+  background-color: #66CDAA;
+}
+
+.row:nth-child(odd)>.cell1:nth-child(odd){
+  background-color: #66CDAA;
+}
+
+.row:nth-child(even)>.cell:nth-child(odd){
+  background-color: #FFE4C4;
 }
